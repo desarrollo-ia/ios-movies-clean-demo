@@ -12,7 +12,6 @@
 		BAAF84EE231F178700F44EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF84ED231F178700F44EA5 /* AppDelegate.swift */; };
 		BAAF84F5231F178800F44EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAF84F4231F178800F44EA5 /* Assets.xcassets */; };
 		BAAF84F8231F178800F44EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAF84F6231F178800F44EA5 /* LaunchScreen.storyboard */; };
-		BAAF8503231F178800F44EA5 /* CLEANMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF8502231F178800F44EA5 /* CLEANMoviesTests.swift */; };
 		BAAF8511231F18A500F44EA5 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF850E231F18A500F44EA5 /* UINavigationBarExtension.swift */; };
 		BAAF8512231F18A500F44EA5 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF850F231F18A500F44EA5 /* UIStoryboardExtension.swift */; };
 		BAAF8513231F18A500F44EA5 /* CAGradientLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF8510231F18A500F44EA5 /* CAGradientLayerExtension.swift */; };
@@ -30,6 +29,8 @@
 		BAAF8535231F1C8300F44EA5 /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF852F231F1C8300F44EA5 /* MoviesRouter.swift */; };
 		BAAF8536231F1C8300F44EA5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF8530231F1C8300F44EA5 /* MoviesViewController.swift */; };
 		BAAF8537231F1C8300F44EA5 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF8531231F1C8300F44EA5 /* MoviesInteractor.swift */; };
+		BAAF853D231F203900F44EA5 /* MoviesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF853B231F203900F44EA5 /* MoviesInteractorTests.swift */; };
+		BAAF853E231F203900F44EA5 /* MoviesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF853C231F203900F44EA5 /* MoviesWorkerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,6 @@
 		BAAF84F7231F178800F44EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAF84F9231F178800F44EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAAF84FE231F178800F44EA5 /* CLEANMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLEANMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAAF8502231F178800F44EA5 /* CLEANMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLEANMoviesTests.swift; sourceTree = "<group>"; };
 		BAAF8504231F178800F44EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAAF850E231F18A500F44EA5 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		BAAF850F231F18A500F44EA5 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
@@ -71,6 +71,9 @@
 		BAAF852F231F1C8300F44EA5 /* MoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRouter.swift; sourceTree = "<group>"; };
 		BAAF8530231F1C8300F44EA5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		BAAF8531231F1C8300F44EA5 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
+		BAAF853A231F203800F44EA5 /* CLEANMoviesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLEANMoviesTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAAF853B231F203900F44EA5 /* MoviesInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesInteractorTests.swift; sourceTree = "<group>"; };
+		BAAF853C231F203900F44EA5 /* MoviesWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesWorkerTests.swift; sourceTree = "<group>"; };
 		D341B3C8E7751280A3A9E595 /* Pods_CLEANMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLEANMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D701895B3B41857E206E90A2 /* Pods-CLEANMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLEANMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-CLEANMoviesTests/Pods-CLEANMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F779B46E4429DE64AD969325 /* Pods-CLEANMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLEANMovies.release.xcconfig"; path = "Target Support Files/Pods-CLEANMovies/Pods-CLEANMovies.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,8 +146,9 @@
 		BAAF8501231F178800F44EA5 /* CLEANMoviesTests */ = {
 			isa = PBXGroup;
 			children = (
-				BAAF8502231F178800F44EA5 /* CLEANMoviesTests.swift */,
+				BAAF8539231F202200F44EA5 /* Movie List scene */,
 				BAAF8504231F178800F44EA5 /* Info.plist */,
+				BAAF853A231F203800F44EA5 /* CLEANMoviesTests-Bridging-Header.h */,
 			);
 			path = CLEANMoviesTests;
 			sourceTree = "<group>";
@@ -234,6 +238,15 @@
 			path = Workers;
 			sourceTree = "<group>";
 		};
+		BAAF8539231F202200F44EA5 /* Movie List scene */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF853C231F203900F44EA5 /* MoviesWorkerTests.swift */,
+				BAAF853B231F203900F44EA5 /* MoviesInteractorTests.swift */,
+			);
+			path = "Movie List scene";
+			sourceTree = "<group>";
+		};
 		C195110C7FA8A30374B567EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +315,7 @@
 					};
 					BAAF84FD231F178800F44EA5 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 						TestTargetID = BAAF84E9231F178700F44EA5;
 					};
 				};
@@ -456,7 +470,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAAF8503231F178800F44EA5 /* CLEANMoviesTests.swift in Sources */,
+				BAAF853E231F203900F44EA5 /* MoviesWorkerTests.swift in Sources */,
+				BAAF853D231F203900F44EA5 /* MoviesInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +657,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXDFYL9LZK;
 				INFOPLIST_FILE = CLEANMoviesTests/Info.plist;
@@ -652,6 +668,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iainteractive.CLEANMoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLEANMoviesTests/Movie List scene/CLEANMoviesTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLEANMovies.app/CLEANMovies";
@@ -664,6 +682,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXDFYL9LZK;
 				INFOPLIST_FILE = CLEANMoviesTests/Info.plist;
@@ -674,6 +693,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iainteractive.CLEANMoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLEANMoviesTests/Movie List scene/CLEANMoviesTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLEANMovies.app/CLEANMovies";

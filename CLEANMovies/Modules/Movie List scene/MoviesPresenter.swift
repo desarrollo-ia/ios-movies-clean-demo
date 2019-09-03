@@ -7,6 +7,8 @@
 //
 
 protocol MoviesPresentationLogic {
+    func presentMovieList(_ response: Movies.GetMovieList.Response)
+    func presentError(_ error: Error)
 }
 
 class MoviesPresenter: MoviesPresentationLogic {
@@ -15,4 +17,9 @@ class MoviesPresenter: MoviesPresentationLogic {
     weak var viewController: MoviesDisplayLogic?
 
     // MARK: Presentation Logic
+    func presentMovieList(_ response: Movies.GetMovieList.Response) {
+    }
+
+    func presentError(_ error: Error) {
+    }
 }

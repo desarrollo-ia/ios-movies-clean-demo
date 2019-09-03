@@ -6,18 +6,33 @@
 //  Copyright (c) 2019 IA Interactive. All rights reserved.
 //
 
+import RxSwift
+
 protocol MoviesBusinessLogic {
+    func requestMovieList(_ request: Movies.GetMovieList.Request)
 }
 
 protocol MoviesDataStore {
-    //var myDataStoreVar: String { get set }
+    var moviesArray: [Movie] { get }
 }
 
 class MoviesInteractor: MoviesBusinessLogic, MoviesDataStore {
 
     // MARK: - Properties
     internal var presenter: MoviesPresentationLogic?
-    //private let worker = MoviesWorker()
+    internal var moviesArray = [Movie]()
+    private let worker = MoviesWorker()
+    private let disposeBag = DisposeBag()
 
-    // MARK: Business Logic **********************************************************************************************
+    // MARK: Business Logic *****************************************************************************************
+
+    func requestMovieList(_ request: Movies.GetMovieList.Request) {
+        worker.getMovieList(type: request.listType).subscribe(onSuccess: { [weak self] movies in
+            self?.moviesArray = movies
+            let response = Movies.GetMovieList.Response(movies: movies)
+            self?.presenter?.presentMovieList(response)
+        }, onError: { [weak self] error in
+            self?.presenter?.presentError(error)
+        }).disposed(by: disposeBag)
+    }
 }
