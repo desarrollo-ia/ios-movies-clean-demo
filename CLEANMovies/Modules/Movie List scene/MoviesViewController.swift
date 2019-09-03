@@ -9,6 +9,9 @@
 import UIKit
 
 protocol MoviesDisplayLogic: class {
+    func displayMoviesList(_ viewModel: Movies.GetMovieList.ViewModel)
+    func displayEmptyState()
+    func displayErrorAlert(message: String)
 }
 
 class MoviesViewController: UIViewController {
@@ -34,4 +37,13 @@ class MoviesViewController: UIViewController {
 
 // MARK: - Display Logic Methods
 extension MoviesViewController: MoviesDisplayLogic {
+
+    func displayMoviesList(_ viewModel: Movies.GetMovieList.ViewModel) {
+    }
+
+    func displayEmptyState() {
+    }
+
+    func displayErrorAlert(message: String) {
+    }
 }

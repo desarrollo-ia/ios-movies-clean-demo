@@ -6,7 +6,7 @@
 //  Copyright (c) 2019 IA Interactive. All rights reserved.
 //
 
-@testable import Cinelopis__CLEAN_Demo_
+@testable import CLEANMovies
 import XCTest
 
 class MoviesInteractorTests: XCTestCase {
