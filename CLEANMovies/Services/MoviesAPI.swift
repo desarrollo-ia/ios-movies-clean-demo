@@ -57,7 +57,7 @@ extension MoviesAPI: TargetType {
 
     var task: Task {
         let baseParams: [String: Any] = [
-            "api_key": "68e2d65ca6cfe9dafa1d06e53a1ce71d"
+            "api_key": "---" // Insert your own API key here to use real network responses.
             //"language": "es-MX",
             //"region": "MX"
         ]
