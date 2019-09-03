@@ -19,8 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // App Starting Point
         window = UIWindow(frame: UIScreen.main.bounds)
-        let id = String(describing: MovieListViewController.self)
-        let movieList = UIStoryboard.movies.instantiateViewController(withIdentifier: id)
+
+        //let id = String(describing: MovieListViewController.self)
+        //let movieList = UIStoryboard.movies.instantiateViewController(withIdentifier: id)
+        let movieList = MoviesBuilder.build()
+
         let navController = UINavigationController(rootViewController: movieList)
         window?.rootViewController = navController
         window?.makeKeyAndVisible()

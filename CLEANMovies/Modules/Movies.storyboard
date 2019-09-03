@@ -150,17 +150,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oUW-zz-Q2i">
-                                <rect key="frame" x="152.5" y="299.5" width="70" height="68.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oUW-zz-Q2i">
+                                <rect key="frame" x="20" y="299.5" width="335" height="68.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😒" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrX-p6-Tfy">
-                                        <rect key="frame" x="0.0" y="0.0" width="70" height="48"/>
+                                        <rect key="frame" x="145" y="0.0" width="45" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <color key="textColor" red="1" green="0.76862745099999996" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHC-c7-pWJ" customClass="IAActivityIndicator" customModule="CLEANMovies" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="48" width="70" height="40"/>
+                                        <rect key="frame" x="132.5" y="48" width="70" height="40"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="8es-iA-A37"/>
@@ -168,7 +168,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No hay películas " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfm-ch-mNA">
-                                        <rect key="frame" x="0.0" y="48" width="70" height="20.5"/>
+                                        <rect key="frame" x="103" y="48" width="129.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -266,17 +266,15 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="Fao-4x-yZN" id="fU9-3p-5ij"/>
-                                    <outlet property="delegate" destination="Fao-4x-yZN" id="7N9-KI-BEO"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="LdM-DK-XWj" firstAttribute="trailing" secondItem="5lY-Fb-7kX" secondAttribute="trailing" id="4Ei-ze-oM5"/>
+                            <constraint firstItem="LdM-DK-XWj" firstAttribute="trailing" secondItem="oUW-zz-Q2i" secondAttribute="trailing" constant="20" id="Pts-hR-08R"/>
                             <constraint firstItem="oUW-zz-Q2i" firstAttribute="centerY" secondItem="Zz3-Tf-2lT" secondAttribute="centerY" id="XpT-J7-Wmd"/>
                             <constraint firstItem="5lY-Fb-7kX" firstAttribute="leading" secondItem="LdM-DK-XWj" secondAttribute="leading" id="biL-0B-AzF"/>
+                            <constraint firstItem="oUW-zz-Q2i" firstAttribute="leading" secondItem="LdM-DK-XWj" secondAttribute="leading" constant="20" id="f64-rJ-gii"/>
                             <constraint firstItem="LdM-DK-XWj" firstAttribute="bottom" secondItem="5lY-Fb-7kX" secondAttribute="bottom" id="t9m-TZ-g0Y"/>
                             <constraint firstItem="oUW-zz-Q2i" firstAttribute="centerX" secondItem="Zz3-Tf-2lT" secondAttribute="centerX" id="u3L-gr-gbo"/>
                             <constraint firstItem="5lY-Fb-7kX" firstAttribute="top" secondItem="LdM-DK-XWj" secondAttribute="top" id="zSL-my-jlg"/>
@@ -285,8 +283,11 @@
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="tHC-c7-pWJ" id="jUp-yZ-1J5"/>
                         <outlet property="emptyStateView" destination="oUW-zz-Q2i" id="UcB-rd-rDS"/>
                         <outlet property="tableView" destination="5lY-Fb-7kX" id="xvS-Ze-X0O"/>
+                        <outletCollection property="emptyViews" destination="nrX-p6-Tfy" collectionClass="NSMutableArray" id="1F7-Y5-l9j"/>
+                        <outletCollection property="emptyViews" destination="rfm-ch-mNA" collectionClass="NSMutableArray" id="tVW-d1-l8L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cmj-m9-iqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
