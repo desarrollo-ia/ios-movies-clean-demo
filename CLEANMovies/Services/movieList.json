@@ -1,0 +1,411 @@
+{
+  "page": 1,
+  "total_results": 6941,
+  "total_pages": 348,
+  "results": [
+    {
+      "popularity": 130.205,
+      "vote_count": 7961,
+      "video": false,
+      "poster_path": "/u4G8EkiIBZYx0wEg2xDlXZigTOZ.jpg",
+      "id": 920,
+      "adult": false,
+      "backdrop_path": "/a1MlbLBk5Sy6YvMbSuKfwGlDVlb.jpg",
+      "original_language": "en",
+      "original_title": "Cars",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751
+      ],
+      "title": "Cars",
+      "vote_average": 6.7,
+      "overview": "De los aclamados creadores de TOY STORY, LOS INCREÍBLES y BUSCANDO A NEMO, llega una comedia de aventuras de alto octanaje que enseña que la vida es todo un viaje, no sólo llegar a la meta. Rayo McQueen, un novato pero prometedor auto de carreras, vive en carril de alta velocidad, hasta que se topa con una desviación en el camino a la carrera más importante de su vida. Atrapado en Radiator Springs, un pueblo olvidado en la vieja Ruta 66, conoce a Sally, Mate, Doc Hudson y una gran variedad de destartalados personajes que lo ayudan a descubrir que la vida es mucho más que trofeos y fama. Acelerada con una sensacional banda sonora que incluye canciones de Rascal Flatts, Sheryl Crow, John Mayer, James Taylor y muchos otros, además de exclusivo material extra, incluyendo el corto MATE Y LA LUZ FANTASMA, CARS está llena de diversión para todos.",
+      "release_date": "2006-06-30"
+    },
+    {
+      "popularity": 74.547,
+      "vote_count": 480,
+      "video": false,
+      "poster_path": "/dqGsG2uNV9JGgrfODbTafPUukci.jpg",
+      "id": 412117,
+      "adult": false,
+      "backdrop_path": "/etaok7q2E5tV36oXe7GQzhUQ4fX.jpg",
+      "original_language": "en",
+      "original_title": "The Secret Life of Pets 2",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751
+      ],
+      "title": "La Vida Secreta de tus Mascotas 2",
+      "vote_average": 6.6,
+      "overview": "Max se enfrenta a nuevos e importantes cambios en su vida: su dueña Katie no sólo se ha casado, sino que también ha sido madre por primera vez. En un viaje familiar al campo conoce a un perro granjero llamado Rooster, con el que aprende a dominar sus miedos. Mientras tanto, Gidget trata de recuperar el juguete favorito de Max de un apartamento repleto de gatos. Snowball, por otro lado, se embarca en una peligrosa misión para liberar a un tigre blanco, Hu, de sus captures en un circo de animales. Secuela de 'Mascotas' (2016).",
+      "release_date": "2019-08-27"
+    },
+    {
+      "popularity": 72.333,
+      "vote_count": 15027,
+      "video": false,
+      "poster_path": "/q6Q81fP4qPvfQTH2Anlgy12jzO2.jpg",
+      "id": 299536,
+      "adult": false,
+      "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+      "original_language": "en",
+      "original_title": "Avengers: Infinity War",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Avengers: Infinity War",
+      "vote_average": 8.3,
+      "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor.",
+      "release_date": "2018-04-27"
+    },
+    {
+      "popularity": 59.18,
+      "vote_count": 692,
+      "video": false,
+      "poster_path": "/sv5Mfg3gnyrnCWq8oEW47FFCC4K.jpg",
+      "id": 466272,
+      "adult": false,
+      "backdrop_path": "/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg",
+      "original_language": "en",
+      "original_title": "Once Upon a Time in Hollywood",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        18,
+        37
+      ],
+      "title": "Había una vez en Hollywood",
+      "vote_average": 7.6,
+      "overview": "La película se centra en el panorama cambiante de Hollywood a finales de los años 60, cuando la industria empezaba a olvidarse de los pilares clásicos. La estrella de un western televisivo, Rick Dalton (DiCaprio), intenta amoldarse a estos cambios al mismo tiempo que su doble (Pitt). Sin embargo, la vida de Dalton parece que está ligada a sus raíces de Hollywood, puesto que es vecino de la actriz y modelo Sharon Tate (Robbie), que acaba siendo víctima de la familia Manson en la matanza de agosto de 1969.",
+      "release_date": "2019-08-16"
+    },
+    {
+      "popularity": 49.285,
+      "vote_count": 20391,
+      "video": false,
+      "poster_path": "/tyKKKSvjEgDVQ6vtm8vzL5Zx06c.jpg",
+      "id": 24428,
+      "adult": false,
+      "backdrop_path": "/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg",
+      "original_language": "en",
+      "original_title": "The Avengers",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "The Avengers: los Vengadores",
+      "vote_average": 7.6,
+      "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
+      "release_date": "2012-04-27"
+    },
+    {
+      "popularity": 42.742,
+      "vote_count": 12045,
+      "video": false,
+      "poster_path": "/beUKAkJE5gjjTMHYkaiE8uaZLEb.jpg",
+      "id": 284053,
+      "adult": false,
+      "backdrop_path": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+      "original_language": "en",
+      "original_title": "Thor: Ragnarok",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        14
+      ],
+      "title": "Thor: Ragnarok",
+      "vote_average": 7.5,
+      "overview": "Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y detener el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela. Pero, primero deberá sobrevivir a una competición letal de gladiadores que lo enfrentará a su aliado y compañero en los Vengadores, ¡el Increíble Hulk!.",
+      "release_date": "2017-10-26"
+    },
+    {
+      "popularity": 48.478,
+      "vote_count": 18626,
+      "video": false,
+      "poster_path": "/9Ju7p4daJi5rcTUghYZxHlP15ia.jpg",
+      "id": 118340,
+      "adult": false,
+      "backdrop_path": "/kHex2XdOmGtazk1VfJjp4bl7BIc.jpg",
+      "original_language": "en",
+      "original_title": "Guardians of the Galaxy",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Guardianes de la galaxia",
+      "vote_average": 7.9,
+      "overview": "Peter Quill, debe mantener una incomoda alianza con Gamora, Drax, Rocket y Groot para asegurar un artefacto que pone en peligro a toda la galaxia no caiga en las manos del temible Ronan el Acusador.",
+      "release_date": "2014-08-08"
+    },
+    {
+      "popularity": 46.609,
+      "id": 157336,
+      "video": false,
+      "vote_count": 19326,
+      "vote_average": 8.3,
+      "title": "Interestelar",
+      "release_date": "2014-11-06",
+      "original_language": "en",
+      "original_title": "Interstellar",
+      "genre_ids": [
+        12,
+        18,
+        878
+      ],
+      "backdrop_path": "/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
+      "adult": false,
+      "overview": "Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.",
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "popularity": 41.581,
+      "id": 671,
+      "video": false,
+      "vote_count": 14530,
+      "vote_average": 7.8,
+      "title": "Harry Potter y la piedra filosofal",
+      "release_date": "2001-11-30",
+      "original_language": "en",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "genre_ids": [
+        12,
+        14,
+        10751
+      ],
+      "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+      "adult": false,
+      "overview": "El día en que cumple once años, Harry Potter se entera de que es hijo de dos destacados hechiceros, de los que ha heredado poderes mágicos. En la escuela Hogwarts de Magia y Hechicería, donde se educa con otros niños que también tienen poderes especiales, aprenderá todo lo necesario para ser mago.",
+      "poster_path": "/yOTQT0xPXr4pOBxKp0rBSYkMzw6.jpg"
+    },
+    {
+      "popularity": 26.506,
+      "vote_count": 16916,
+      "video": false,
+      "poster_path": "/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg",
+      "id": 550,
+      "adult": false,
+      "backdrop_path": "/mMZRKb3NVo5ZeSPEIaNW9buLWQ0.jpg",
+      "original_language": "en",
+      "original_title": "Fight Club",
+      "genre_ids": [
+        18
+      ],
+      "title": "El club de la pelea",
+      "vote_average": 8.4,
+      "overview": "Un joven hastiado de su gris y monótona vida lucha contra el insomnio. En un viaje en avión conoce a un carismático vendedor de jabón que sostiene una teoría muy particular: el perfeccionismo es cosa de gentes débiles; sólo la autodestrucción hace que la vida merezca la pena. Ambos deciden entonces fundar un club secreto de lucha, donde poder descargar sus frustaciones y su ira, que tendrá un éxito arrollador.",
+      "release_date": "1999-11-05"
+    },
+    {
+      "popularity": 37.49,
+      "vote_count": 8296,
+      "video": false,
+      "poster_path": "/gkcT1QmvspJ34rKgFUvv0ho0VrD.jpg",
+      "id": 607,
+      "adult": false,
+      "backdrop_path": "/agCihVGrXk3hmmwMIgsn2ao1eEa.jpg",
+      "original_language": "en",
+      "original_title": "Men in Black",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        878
+      ],
+      "title": "Hombres de negro",
+      "vote_average": 7.1,
+      "overview": "Durante muchos años los extraterrestres han vivido en la Tierra, mezclados con los seres humanos, sin que nadie lo supiese. Los Hombres de Negro son agentes especiales que forman parte de una unidad altamente secreta del gobierno; su misión consiste en controlar a los alienígenas. Dos de estos agentes (uno veterano y otro recién incorporado), cuya misión consiste en vigilar a los alienígenas que viven en Nueva York, descubren a un terrorista galáctico que pretende acabar con la Humanidad.",
+      "release_date": "1997-08-01"
+    },
+    {
+      "popularity": 40.239,
+      "vote_count": 404,
+      "video": false,
+      "poster_path": "/gUPZu9stlOUHqT9FCRYwiKkFtMo.jpg",
+      "id": 502416,
+      "adult": false,
+      "backdrop_path": "/mBOv5YrX5QGr5CusK0PKSHuxOt9.jpg",
+      "original_language": "en",
+      "original_title": "Ma",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "title": "Ma",
+      "vote_average": 5.6,
+      "overview": "Una mujer solitaria (Octavia Spencer) entabla amistad con un grupo de adolescentes y decide invitarles a una fiesta en su casa. Justo cuando los jóvenes piensan que su suerte no puede ir a mejor, una serie de extraños acontecimientos comienzan a suceder, poniendo en tela de juicio las intenciones de su nueva y misteriosa amiga.",
+      "release_date": "2019-05-31"
+    },
+    {
+      "popularity": 43.804,
+      "vote_count": 11857,
+      "video": false,
+      "poster_path": "/4hOUzmButYUeON0prG3RpbqS7ag.jpg",
+      "id": 11,
+      "adult": false,
+      "backdrop_path": "/4iJfYYoQzZcONB9hNzg0J0wWyPH.jpg",
+      "original_language": "en",
+      "original_title": "Star Wars",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Star Wars: Episodio 4 - Una nueva esperanza",
+      "vote_average": 8.2,
+      "overview": "La Princesa Leia Organa ha sido capturada por Darth Vader por tener los planos de la Estrella de la muerte, la temida estación espacial del imperio. Dos androides escapan al planeta Tatooine, ambos son comprados por Luke Skywalker, un joven granjero, este se entera de un mensaje que ella, uno de ellos y busca a Obi Wan Kenobi, un antiguo caballero Jedi que lo lleva a conocer sobre la fuerza y como utilizarla. Contratan a Han Solo, un foragido espacial que tiene al Halcón Milenario, una gran nave capaz de recorrer a la velocidad de la luz con la intención de rescatar a la princesa y luego organizar una batalla para destruir a la Estrella de la muerte.",
+      "release_date": "1977-12-23"
+    },
+    {
+      "popularity": 28.997,
+      "vote_count": 10875,
+      "video": false,
+      "poster_path": "/Akq3SczzAdsQ9ec2IjZi6JLGw0H.jpg",
+      "id": 210577,
+      "adult": false,
+      "backdrop_path": "/8ZNGBfGoN3uI5Akj5vEUDMxvmGO.jpg",
+      "original_language": "en",
+      "original_title": "Gone Girl",
+      "genre_ids": [
+        18,
+        9648,
+        53
+      ],
+      "title": "Perdida",
+      "vote_average": 7.9,
+      "overview": "Con la desaparición de su esposa convirtiéndose en el foco de un circo mediático intenso, un hombre ve el foco de atención cuando se sospecha que no es inocente.",
+      "release_date": "2014-10-02"
+    },
+    {
+      "popularity": 31.721,
+      "vote_count": 6972,
+      "video": false,
+      "poster_path": "/uHEAuTMJItOxjA0a2pOqX2almaR.jpg",
+      "id": 335984,
+      "adult": false,
+      "backdrop_path": "/sAtoMqDVhNDQBc3QJL3RF6hlhGq.jpg",
+      "original_language": "en",
+      "original_title": "Blade Runner 2049",
+      "genre_ids": [
+        18,
+        878
+      ],
+      "title": "Blade Runner 2049",
+      "vote_average": 7.4,
+      "overview": "En 2049, K es uno de los esclavos androides de la nueva serie Nexus-9 llamados replicantes. K también es un Blade Runner, un cazador de replicantes rebeldes, que termina realizando un importante descubrimiento durante una de sus misiones. Luego de ser ordenado buscar y destruir cualquier evidencia del suceso, el androide termina tras la pista de Rick Deckard, un misterioso ex Blade Runner desparecido por más de 30 años. Secuela del icónico filme de ciencia ficción de 1982, Blade Runner.",
+      "release_date": "2017-10-06"
+    },
+    {
+      "popularity": 33.995,
+      "vote_count": 13100,
+      "video": false,
+      "poster_path": "/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg",
+      "id": 283995,
+      "adult": false,
+      "backdrop_path": "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+      "original_language": "en",
+      "original_title": "Guardians of the Galaxy Vol. 2",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        878
+      ],
+      "title": "Guardianes de la Galaxia Vol. 2",
+      "vote_average": 7.7,
+      "overview": "Continúan las aventuras del equipo en su travesía por los confines del cosmos. Los Guardianes deberán luchar para mantener unida a su nueva familia mientras intentan resolver el misterio de los verdaderos orígenes de Peter Quill. Viejos rivales se convertirán en nuevos aliados, y queridos personajes de los cómics clásicos acudirán en ayuda de nuestros héroes a medida que el Universo Cinematográfico de Marvel continúa expandiéndose.",
+      "release_date": "2017-04-28"
+    },
+    {
+      "popularity": 30.713,
+      "vote_count": 10966,
+      "video": false,
+      "poster_path": "/egKi4jZKKVZzR8NaaNjEwMpEgHs.jpg",
+      "id": 198663,
+      "adult": false,
+      "backdrop_path": "/lkOZcsXcOLZYeJ2YxJd3vSldvU4.jpg",
+      "original_language": "en",
+      "original_title": "The Maze Runner",
+      "genre_ids": [
+        28,
+        9648,
+        878,
+        53
+      ],
+      "title": "Maze Runner: El corredor del laberinto",
+      "vote_average": 7.1,
+      "overview": "Thomas abre los ojos y se da cuenta que está en un ascensor. Lo extraño es que no recuerda nada, ni dónde está, ni quién es. Lo único que aún permanece intacto en su memoria es su nombre, y ya es mucho. Antes de que le dé tiempo a cuestionarse algo sobre sí mismo las puertas se abrirán y aparecerá ante él un extraño mundo. Todo lo que ve son chicos de su edad que tienen su mismo estado de amnesia. Una aventura fantástica que pronto destapará la dura realidad bajo ese velo de incertidumbre.",
+      "release_date": "2014-09-18"
+    },
+    {
+      "popularity": 39.476,
+      "vote_count": 5446,
+      "video": false,
+      "poster_path": "/vky6H7mCBjSsg1GMGJtJpGUeVS1.jpg",
+      "id": 87101,
+      "adult": false,
+      "backdrop_path": "/bIlYH4l2AyYvEysmS2AOfjO7Dn8.jpg",
+      "original_language": "en",
+      "original_title": "Terminator Genisys",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        53
+      ],
+      "title": "Terminator: Génesis",
+      "vote_average": 5.9,
+      "overview": "Año 2032. La guerra del futuro se está librando y un grupo de rebeldes humanos tiene el sistema de inteligencia artificial Skynet contra las cuerdas. John Connor es el líder de la resistencia, y Kyle Reese es su fiel soldado, criado en las ruinas de una postapocalíptica California. Para salvaguardar el futuro, Connor envía a Reese a 1984 para salvar a su madre, Sarah de un Terminator programado para matarla con el fin de que no llegue a dar a luz a John. Pero lo que Reese encuentra en el otro lado no es como él esperaba.",
+      "release_date": "2015-06-27"
+    },
+    {
+      "popularity": 35.152,
+      "vote_count": 14978,
+      "video": false,
+      "poster_path": "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "id": 603,
+      "adult": false,
+      "backdrop_path": "/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+      "original_language": "en",
+      "original_title": "The Matrix",
+      "genre_ids": [
+        28,
+        878
+      ],
+      "title": "Matrix",
+      "vote_average": 8.1,
+      "overview": "Thomas Anderson (Keanu Reeves), un reconocido programador informático de una prestigiosa compañía de software. Pero fuera de su coartada profesional, el hombre se hace llamar Neo, y se dedica a la piratería informática (hacker), dispuesto a realizar toda clase de trabajos. Un día inesperado, la vida de Neo da un giro repentino cuando es contactado por un grupo de rebeldes para ser miembro de su resistencia.",
+      "release_date": "1999-05-21"
+    },
+    {
+      "popularity": 41.426,
+      "vote_count": 22965,
+      "video": false,
+      "poster_path": "/tXQvtRWfkUUnWJAn2tN3jERIUG.jpg",
+      "id": 27205,
+      "adult": false,
+      "backdrop_path": "/s2bT29y0ngXxxu2IA8AOzzXTRhd.jpg",
+      "original_language": "en",
+      "original_title": "Inception",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "El Origen",
+      "vote_average": 8.3,
+      "overview": "Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.",
+      "release_date": "2010-07-23"
+    }
+  ]
+}
